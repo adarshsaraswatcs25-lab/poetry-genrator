@@ -1,0 +1,21 @@
+div{
+   height: 300px;
+   poistion: 
+}
+
+#box {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 10px;
+  
+}
+button{
+  height:20px;
+  border:2px solid rgb(51, 0, 255);
+  
+}
+body{
+  background-color: rgb(106, 200, 99);
+}
