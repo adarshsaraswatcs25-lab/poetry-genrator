@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      
+      <center>
+        <h1>
+          Poetry  generator
+        </h1>
+      
+<div id="box">choose your poetry generator...</div>
+        <button onclick ="change()">Sad</button>
+        <button onclick ="change1()">Motivation</button>
+        <button onclick ="change2()">Angry</button>
+        <button onclick ="change3()">Reset</button>
+      </center>
+      
+      <script>
+          function change() { document.getElementById("box").innerHTML ="😒"; } 
+function change1() { document.getElementById("box").innerHTML = "💪"; } 
+function change2() { document.getElementById("box").innerHTML = "😡"; } 
+function change3() { document.getElementById("box").innerHTML = "choose your poetry generator..."; } 
+        
+        
+      </script>
+  </body>
+</html>
